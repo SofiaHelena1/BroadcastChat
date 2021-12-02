@@ -7,7 +7,7 @@ The Server can host until 10 clients.
 Each Client connected to the Server is able to send to the Server a character string passed by argument via command line arguments. 
 Server forward the received messages to all connected Clients.
 The Server identify the client that has sent the message. 
-Use POSIX Threads.
+Usage of POSIX Threads and device drivers.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
