@@ -16,8 +16,9 @@ Usage of POSIX Threads and device drivers.
 
 1-Compile for host
 
-2-Run using this format: ./tcpserver <protocol or portnum>
+2-Run using this format: ./<name_executable> <protocol or portnum>
 
+3- whenever a new client enters the chat, the server will print who enter in the chat
 
 *Makefile*
 
@@ -42,8 +43,11 @@ for works:
 raspberry led and whenever the connection ends the led will have to 
 turn off so we need this make)
 
-3- Run using this format: ./tcpclient  <servername> <protocol or portnum>
+3- Run using this format: ./<name_executable>   <servername> <protocol or portnum>
  
+4- The server will ask for the name and the you have to respond
+
+5- You can then send the messages you want
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
