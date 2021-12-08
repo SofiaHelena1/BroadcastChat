@@ -12,24 +12,26 @@ This program have the following features implemented:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##To compile:
+## To compile:
 
-###server.c
+### server.c
 The server.c must be compiled to the host:
 you can use: gcc tcpserver.c -o <name_executable_server> -pthread
 
-###client.c
+### client.c
 The client.c can be compile for raspberry pi
 you can use:  ~/buildroot/buildroot-2021.02.5/output/host/bin/aarch64-buildroot-linux-gnu-gcc tcpclient.c -o <name_executable_client>-pthread
 
 if you not want to use raspberry pi
 you just do: gcc tcpclient.c -o <name_executable_client> -pthread
 
-####NOTE
+#### NOTE
 This program has the functionality, if the client is a raspberry, to turn on a led when the connection is made and turn off when it ends. For this purpose it is necessary to compile, and to this:
 you can do: make
 and then send executable to  the rasp using: scp command
-If sucess you will se: [
+If sucess you will se: 
+
+[
 ![Captura de ecrã de 2021-12-08 16-24-30](https://user-images.githubusercontent.com/95348254/145245680-36ef5901-d67a-42ba-9a7d-728d976155e7.png)
 ](url)
 
