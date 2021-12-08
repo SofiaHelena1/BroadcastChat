@@ -54,9 +54,8 @@ you shoul have the same output but with:
  - insmod: ERROR: could not insert module led.ko: Operation not permitted
  - sh: 1: cannot create /sys/class/leds/led0/trigger: Directory nonexistent
  
- ##Attention
- 
-This only indicates that the client is not raspberry, then it is not able to turn on the led when it starts the connection and turn it off when it finishes, the rest of the program should work in the same way.
+ ## Attention
+ This only indicates that the client is not raspberry, then it is not able to turn on the led when it starts the connection and turn it off when it finishes, the rest of the program should work in the same way.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
