@@ -60,9 +60,10 @@ This only indicates that as the client is not raspberry, then it is not able to 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- ## How it works
-
-
+ ## How it works:
+ 
+Below is an example of communication using the server and two clients, one of them is on raspberry:
+ 
 
 
 
