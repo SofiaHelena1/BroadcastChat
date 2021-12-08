@@ -35,6 +35,7 @@ If sucess you will se:
 ![Captura de ecrã de 2021-12-08 16-24-30](https://user-images.githubusercontent.com/95348254/145245680-36ef5901-d67a-42ba-9a7d-728d976155e7.png)
 ](url)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## To run:
 
@@ -43,19 +44,22 @@ you can use: ./<name_executable_server> <protocol_portnum>
 
  ### tcpclient.c
 you can use: ./<name_executable_client>   <servername> <protocol_portnum>
-if successful you should have the following output:
+If your client is the raspberry pi:
+ if successful you should have the following output:
  
  ![2](https://user-images.githubusercontent.com/95348254/145248548-9a4b3f03-cbe5-4c61-a61f-a746ebad0a1c.png)
 
+if the client is not raspberry pi
+you shoul have the same output but with: 
+  insmod: ERROR: could not insert module led.ko: Operation not permitted
+  sh: 1: cannot create /sys/class/leds/led0/trigger: Directory nonexistent
+ ##Attention
+This only indicates that as the client is not raspberry, then it is not able to turn on the led when it starts the connection and turn it off when it finishes, the rest of the program should work in the same way.
 
 
- 
-4- The server will ask for the name and the you have to respond
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-5- You can then send the messages you want
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+ ## How it works
 
 
 
