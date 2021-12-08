@@ -29,7 +29,9 @@ you just do: gcc tcpclient.c -o <name_executable_client> -pthread
 This program has the functionality, if the client is a raspberry, to turn on a led when the connection is made and turn off when it ends. For this purpose it is necessary to compile, and to this:
 you can do: make
 and then send executable to  the rasp using: scp command
-If sucess you will se:
+If sucess you will se: [
+![Captura de ecrã de 2021-12-08 16-24-30](https://user-images.githubusercontent.com/95348254/145245680-36ef5901-d67a-42ba-9a7d-728d976155e7.png)
+](url)
 
 
 ##To run:
