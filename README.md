@@ -1,13 +1,13 @@
 # BroadcastChat
 
 
-This program have the following features implemented:
+This program has the following features implemented:
 
-- Each Client connected to the Server via TCP/IP.
+- Each Client is connected to the Server via TCP/IP.
 - The Server can host until 10 clients.
 - Each Client connected to the Server is able to send to the Server a character string passed by argument via command line arguments. 
-- Server forward the received messages to all connected Clients.
-- The Server identify the client that has sent the message. 
+- Server will forward the received messages to all connected Clients.
+- The Server can identify the client that has sent the message. 
 - Usage of POSIX Threads and device drivers.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -19,14 +19,14 @@ The server.c must be compiled to the host:
 you can use: gcc tcpserver.c -o <name_executable_server> -pthread
 
 ### client.c
-The client.c can be compile for raspberry pi
+The client.c can be compiled for raspberry pi
 you can use:  ~/buildroot/buildroot-2021.02.5/output/host/bin/aarch64-buildroot-linux-gnu-gcc tcpclient.c -o <name_executable_client>-pthread
 
-if you not want to use raspberry pi
+if don't want to use raspberry pi
 you just do: gcc tcpclient.c -o <name_executable_client> -pthread
 
 #### NOTE
-This program has the functionality, if the client is a raspberry, to turn on a led when the connection is made and turn off when it ends. For this purpose it is necessary to compile, and to this:
+if the client is a raspberry, this program has the functionality, of turning on a led when the connection is made and turn off when it ends. For this purpose it is necessary to compile, and to this:
 you can do: make
 and then send executable to  the rasp using the scp command
 If sucess you will se: 
@@ -55,14 +55,15 @@ you shoul have the same output but with:
  - sh: 1: cannot create /sys/class/leds/led0/trigger: Directory nonexistent
  
  ##Attention
-This only indicates that as the client is not raspberry, then it is not able to turn on the led when it starts the connection and turn it off when it finishes, the rest of the program should work in the same way.
+ 
+This only indicates that the client is not raspberry, then it is not able to turn on the led when it starts the connection and turn it off when it finishes, the rest of the program should work in the same way.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  ## How it works:
  
-Below is an example of communication using the server and two clients, one of them is on raspberry. 
+Below is an example of communication using the server and two clients, one of them is a raspberry. 
  
  - 1 As you can see in the previous section, when you run the program on the client, you are asked for its name. After answering as you can see on the left side, the server, on the right side, informs you who entered the chat. As this client is on raspberry then you are supposed to see the led light up as soon as the connection is made.
  
