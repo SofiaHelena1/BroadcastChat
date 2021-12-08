@@ -64,7 +64,13 @@ This only indicates that as the client is not raspberry, then it is not able to 
  
 Below is an example of communication using the server and two clients, one of them is on raspberry. 
  
- -1 
+ -1 As you can see in the previous section, when you run the program on the client, you are asked for its name. After answering as you can see on the left side, the server, on the right side, informs you who entered the chat.
+ 
+
+ ![1](https://user-images.githubusercontent.com/95348254/145256231-03a06918-7c1e-4f99-888e-bcc43d9cfb01.png)
+ 
+ 
+ -2
  
  
  
