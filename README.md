@@ -43,8 +43,12 @@ you can use: ./<name_executable_server> <protocol_portnum>
 
  ### tcpclient.c
 you can use: ./<name_executable_client>   <servername> <protocol_portnum>
+if successful you should have the following output:
+ 
+ ![2](https://user-images.githubusercontent.com/95348254/145248548-9a4b3f03-cbe5-4c61-a61f-a746ebad0a1c.png)
 
-3- Run using this format: ./<name_executable>   <servername> <protocol_portnum>
+
+
  
 4- The server will ask for the name and the you have to respond
 
