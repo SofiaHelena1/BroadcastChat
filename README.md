@@ -24,6 +24,7 @@ you can use:  ~/buildroot/buildroot-2021.02.5/output/host/bin/aarch64-buildroot-
 
 if don't want to use raspberry pi
 you just do: gcc tcpclient.c -o <name_executable_client> -pthread
+
 and then send executable to  the rasp using the scp command
 
 #### NOTE
