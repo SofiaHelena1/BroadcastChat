@@ -3,12 +3,12 @@
 
 This program have the following features implemented:
 
-Each Client connected to the Server via TCP/IP.
-The Server can host until 10 clients.
-Each Client connected to the Server is able to send to the Server a character string passed by argument via command line arguments. 
-Server forward the received messages to all connected Clients.
-The Server identify the client that has sent the message. 
-Usage of POSIX Threads and device drivers.
+- Each Client connected to the Server via TCP/IP.
+- The Server can host until 10 clients.
+- Each Client connected to the Server is able to send to the Server a character string passed by argument via command line arguments. 
+- Server forward the received messages to all connected Clients.
+- The Server identify the client that has sent the message. 
+- Usage of POSIX Threads and device drivers.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
