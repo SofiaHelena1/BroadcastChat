@@ -24,12 +24,12 @@ you can use:  ~/buildroot/buildroot-2021.02.5/output/host/bin/aarch64-buildroot-
 
 if don't want to use raspberry pi
 you just do: gcc tcpclient.c -o <name_executable_client> -pthread
-and then send executable to  the rasp using the scp command
+and then send the executable to the raspberry using the scp command
 
 #### NOTE
 If the client is a raspberry, this program has the functionality, of turning on a led when the connection is made and turn off when it ends. For this purpose it is necessary to compile, and to this:
 you can do: make
-and then send executable to  the rasp using the scp command
+and then to send the executable to the raspberry use the scp command
 If sucess you will se: 
 
 [
@@ -56,7 +56,7 @@ If the client isn't a raspberry pi you should have the same output but with:
  - sh: 1: cannot create /sys/class/leds/led0/trigger: Directory nonexistent
  
  ##### Attention
- This only indicates that the client is not raspberry, then it is not able to turn on the led when it starts the connection and turn it off when it finishes, the rest of the program should work in the same way.
+ This only indicates that the client is not the raspberry, then it is not able to turn on the led when it starts the connection and turn it off when it finishes, the rest of the program should work in the same way.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
