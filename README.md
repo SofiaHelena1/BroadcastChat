@@ -28,7 +28,7 @@ you just do: gcc tcpclient.c -o <name_executable_client> -pthread
 #### NOTE
 This program has the functionality, if the client is a raspberry, to turn on a led when the connection is made and turn off when it ends. For this purpose it is necessary to compile, and to this:
 you can do: make
-and then send executable to  the rasp using: scp command
+and then send executable to  the rasp using the scp command
 If sucess you will se: 
 
 [
@@ -36,36 +36,13 @@ If sucess you will se:
 ](url)
 
 
-##To run:
+## To run:
 
-1-Compile for host
+ ### tcpserver.c
+you can use: ./<name_executable_server> <protocol_portnum>
 
-2-Run using this format: ./<name_executable> <protocol_portnum>
-
-3- whenever a new client enters the chat, the server will print who enter in the chat
-
-*Makefile*
-
-for works:
-
-1-Open makefile
-
-2-change KDIR
-
-3-change ARCH
-
-4-CROSS_COMPILE 
-
-
- *tcpclient.c*
-
-1-Compile for raspberry pi
-
-2-We must do make and this will compile the led.ko for raspberry pi
-
-(In this file whenever the connection was stable we will turn on a 
-raspberry led and whenever the connection ends the led will have to 
-turn off so we need this make)
+ ### tcpclient.c
+you can use: ./<name_executable_client>   <servername> <protocol_portnum>
 
 3- Run using this format: ./<name_executable>   <servername> <protocol_portnum>
  
