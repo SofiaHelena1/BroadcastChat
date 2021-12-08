@@ -44,14 +44,14 @@ If sucess you will se:
 You can use: ./<name_executable_server> <protocol_portnum>
 
  ### tcpclient.c
-You can use: ./<name_executable_client>   <servername> <protocol_portnum>
+You can use: ./<name_executable_client>   <servername> <protocol_portnum>.
 If your client is the raspberry pi:
  if successful you should have the following output:
  
  ![2](https://user-images.githubusercontent.com/95348254/145248548-9a4b3f03-cbe5-4c61-a61f-a746ebad0a1c.png)
 
 If the client is not raspberry pi
-you shoul have the same output but with: 
+you should have the same output but with: 
  - insmod: ERROR: could not insert module led.ko: Operation not permitted
  - sh: 1: cannot create /sys/class/leds/led0/trigger: Directory nonexistent
  
