@@ -64,13 +64,22 @@ This only indicates that as the client is not raspberry, then it is not able to 
  
 Below is an example of communication using the server and two clients, one of them is on raspberry. 
  
- -1 As you can see in the previous section, when you run the program on the client, you are asked for its name. After answering as you can see on the left side, the server, on the right side, informs you who entered the chat.
+ - 1 As you can see in the previous section, when you run the program on the client, you are asked for its name. After answering as you can see on the left side, the server, on the right side, informs you who entered the chat. As this client is on raspberry then you are supposed to see the led light up as soon as the connection is made.
  
 
  ![1](https://user-images.githubusercontent.com/95348254/145256231-03a06918-7c1e-4f99-888e-bcc43d9cfb01.png)
  
  
- -2
+ - 2 Then another client connects to the server and the server retains its name and informs who entered.
+  
+ ![3](https://user-images.githubusercontent.com/95348254/145257498-d5ef8652-d4b8-4a10-b350-695148477fbe.png)
+ 
+ 
+ - 3 An exchange of greetings is made between the first and second created clients, respectively. The server is able to always identify who sends the message and informs each client as well.
+ 
+![4](https://user-images.githubusercontent.com/95348254/145257509-acce0ed8-a727-4a08-81ae-93cd291e872a.png)
+ 
+ - 4 if a client writes CLOSE, the connection is terminated.
  
  
  
