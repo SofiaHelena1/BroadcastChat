@@ -81,6 +81,9 @@ Below is an example of communication using the server and two clients, one of th
  
  - 4 if a client writes CLOSE, the connection is terminated.
  
+![6](https://user-images.githubusercontent.com/95348254/145259623-d1df73cb-1c9a-45f7-9a39-9db79ea9fed9.png)
+
+ 
  
  
 
